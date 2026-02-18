@@ -1,0 +1,33 @@
+# Python-generated files
+__pycache__/
+*.py[oc]
+build/
+dist/
+wheels/
+*.egg-info
+*.parquet
+
+# Virtual environments
+.venv
+venv/
+env/
+
+
+
+# Data files 
+*.csv
+*.csv.gz
+*.json
+*.sqlite
+
+# Docker / Database Data
+# If you used a bind mount like -v ./ny_taxi_data:/var/lib/postgresql/data
+ny_taxi_data/
+postgres_data/
+
+# Environment / Secret files
+.env
+
+# OS-specific files
+.DS_Store
+Thumbs.db
